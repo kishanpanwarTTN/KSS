@@ -1,0 +1,32 @@
+apiVersion: templates.gatekeeper.sh/v1beta1
+kind: ConstraintTemplate
+metadata:
+  name: k8srequiredevlabel
+spec:
+  crd:
+    spec:
+      names:
+        kind: K8sRequireDevLabel
+  targets:
+    - target: admission.k8s.gatekeeper.sh
+      rego: |
+        package k8srequiredlabels
+
+        violation[{"msg": msg}] {
+          input.review.kind.kind == "Pod"
+          not input.review.object.metadata.labels.environment
+          msg := "Pod must have a 'environment' label"
+        }
+
+---
+apiVersion: constraints.gatekeeper.sh/v1beta1
+kind: K8sRequireDevLabel
+metadata:
+  name: require-labels
+spec:
+  match:
+    namespaces:
+    - dev
+    kinds:
+      - apiGroups: [""]
+        kinds: ["Pod"]
