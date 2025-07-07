@@ -1,11 +1,13 @@
-# allow-anonymous-access.yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   name: anonymous-read-access
 rules:
   - apiGroups: [""]
-    resources: ["pods", "namespaces", "nodes", "deployments"]
+    resources: ["pods", "namespaces", "nodes"]
+    verbs: ["get", "list"]
+  - apiGroups: ["apps"]
+    resources: ["deployments"]
     verbs: ["get", "list"]
 ---
 apiVersion: rbac.authorization.k8s.io/v1
