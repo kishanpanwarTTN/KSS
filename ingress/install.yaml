@@ -320,17 +320,22 @@ subjects:
   namespace: ingress-nginx
 ---
 apiVersion: v1
-data: null
 kind: ConfigMap
 metadata:
+  name: ingress-nginx-controller
+  namespace: ingress-nginx
   labels:
     app.kubernetes.io/component: controller
     app.kubernetes.io/instance: ingress-nginx
     app.kubernetes.io/name: ingress-nginx
     app.kubernetes.io/part-of: ingress-nginx
     app.kubernetes.io/version: 1.13.0
-  name: ingress-nginx-controller
-  namespace: ingress-nginx
+data:
+  enable-modsecurity: "true"
+  enable-owasp-modsecurity-crs: "true"
+  modsecurity-snippet: |
+    SecRuleEngine On
+    SecRule REQUEST_HEADERS:User-Agent "curl" "id:1001,phase:1,deny,status:403,msg:'Curl requests blocked'"
 ---
 apiVersion: v1
 kind: Service
