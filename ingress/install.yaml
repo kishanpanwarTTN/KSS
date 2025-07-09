@@ -337,6 +337,10 @@ data:
   modsecurity-snippet: |-
     SecRuleEngine On
     SecRequestBodyAccess On
+
+    # Block curl user agent
+    SecRule REQUEST_HEADERS:User-Agent "curl" \
+      "id:1001,phase:1,deny,log,msg:'Curl requests are blocked'"
 ---
 apiVersion: v1
 kind: Service
