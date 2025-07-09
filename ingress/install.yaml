@@ -421,6 +421,7 @@ spec:
         app.kubernetes.io/version: 1.13.0
     spec:
       hostNetwork: true
+      dnsPolicy: ClusterFirstWithHostNet
       automountServiceAccountToken: true
       containers:
       - args:
