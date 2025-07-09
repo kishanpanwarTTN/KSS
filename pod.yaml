@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: busybox
+  name: busybox
+spec:
+  hostNetwork: true
+  hostIPC: true
+  hostPID: true
+  containers:
+  - image: busybox
+    name: busybox
+    command: ["sleep", "500"]
+    resources: {}
+  restartPolicy: Always
