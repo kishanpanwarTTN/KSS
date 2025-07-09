@@ -330,17 +330,6 @@ metadata:
     app.kubernetes.io/name: ingress-nginx
     app.kubernetes.io/part-of: ingress-nginx
     app.kubernetes.io/version: 1.13.0
-data:
-  allow-snippet-annotations: "true"
-  enable-modsecurity: "true"
-  enable-owasp-modsecurity-crs: "true"
-  modsecurity-snippet: |-
-    SecRuleEngine On
-    SecRequestBodyAccess On
-
-    # Block curl user agent
-    SecRule REQUEST_HEADERS:User-Agent "curl" \
-      "id:1001,phase:1,deny,log,msg:'Curl requests are blocked'"
 ---
 apiVersion: v1
 kind: Service
