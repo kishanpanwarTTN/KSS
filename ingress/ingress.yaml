@@ -1,0 +1,139 @@
+apiVersion: v1
+data:
+  tls.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVYVENDQXNXZ0F3SUJBZ0lSQU04Ry9BWTMvdER1ZUlYUU1ZOUU5QVF3RFFZSktvWklodmNOQVFFTEJRQXcKZ1k4eEhqQWNCZ05WQkFvVEZXMXJZMlZ5ZENCa1pYWmxiRzl3YldWdWRDQkRRVEV5TURBR0ExVUVDd3dwYTJsegphR0Z1UUd0cGMyaGhibkJoYm5kaGNpMVVWRTVRVENBb1MybHphR0Z1SUZCaGJuZGhjaWt4T1RBM0JnTlZCQU1NCk1HMXJZMlZ5ZENCcmFYTm9ZVzVBYTJsemFHRnVjR0Z1ZDJGeUxWUlVUbEJNSUNoTGFYTm9ZVzRnVUdGdWQyRnkKS1RBZUZ3MHlOVEEzTURrd01EUTROVGxhRncweU56RXdNRGt3TURRNE5UbGFNRjB4SnpBbEJnTlZCQW9USG0xcgpZMlZ5ZENCa1pYWmxiRzl3YldWdWRDQmpaWEowYVdacFkyRjBaVEV5TURBR0ExVUVDd3dwYTJsemFHRnVRR3RwCmMyaGhibkJoYm5kaGNpMVVWRTVRVENBb1MybHphR0Z1SUZCaGJuZGhjaWt3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUR3NXFSTTBsNmpvblRKd2NqaWFwTTZnWEtzdTJNdXF6NjZqenpIai8xOQp2UFV5Ui84OUJlUW9Qa3g4Nk03aXAzREJnajFML1BiMHN1WUdWN3Jrc2JqTHB0QVFHcEpwM2tuc1IxN0tBRjhkCi81TFM4V1VlYXNvelZQNllWNlFhelp0MlNBa3paMTQzN3I2VGpSZUtmUUZBV0pNSWlHV0xBOGdwVHkzZms2cUkKeUpLcTZZNjlOSFhSclI3NTc4RXhWTGhjSE5ReWw1QlhiQkNOamJCSWIxT2VvQlQ3TmR4RHNwRFZCaGZOY0syMAp3cE05YkJtRGZHeXZlVkRtcVUrdWM4TUtueVFjZ0dHUGNqNzRvMk9UYUdPYzNWSjQ1N3VRZ2dEUDZzaUZlZ25OCkxIZGkrYjh5eFJWWXQ4YVM1eUxQYmMwYkMzbHdxdDl4RDN1WitVMEtQdEV0QWdNQkFBR2paVEJqTUE0R0ExVWQKRHdFQi93UUVBd0lGb0RBVEJnTlZIU1VFRERBS0JnZ3JCZ0VGQlFjREFUQWZCZ05WSFNNRUdEQVdnQlFmN2dzTQpiRTdMZkFEZm5WUGswZUpDYU1uMkRqQWJCZ05WSFJFRUZEQVNnaEJyYzNNdWRHOTBhR1Z1WlhjdVkyOXRNQTBHCkNTcUdTSWIzRFFFQkN3VUFBNElCZ1FEQnVoUEFQdVEyQVhKODRnTWt6VnJvd1dVSVg2MHcvSmk3b0V4T2N1WmkKQzAwLzNiNjRZTFUwS2R1YXF6SFFBZjkvaVJsaXB4aHVxdzl1ajJEY0FpdkppTFE3QmJlL0RITk94RHNDNGt0dAoxbUlveFg0ZUJmbExnK2JFS3lhZlRWU0NrWVF3QnF2WWtxYVFPVUVlUXBBdlQyWTQrL3RiSDZ4VUVKSHFwbWpnCmkwSk9WeFl6L2hmd1cxdm84T2J1b2VlQzViRFRHcTM2Mk1jbnErYTZONkc2YTRXbmMrUjlZUnpPODZYcnNvN28KS25VNTZLMlJ0NnZlT2FWTWNxOEpENEpibXNneVhtbDBMendxYXJCOEFsL0QxL3pBcnY0YjJBdVE3VUhzbkhnawpXQ3pTaTFWRGNuWHJqMk1QUHJqYjZ1NmtuUlYyeFpjaUpCdGxkUXlUUldaYnlNRk1EQldIZXNFZ2JseGh5eXJpCkx6cms5c0hWSEpveXZRRkNpTTJPZGpNN2NCT0xJWGozaW9PRXIwaGFacjdWbDAzLzRWTVlHRkwyTG9OcmlDUkMKbCs5SC82UmJPNG5sTnczcEZ2NHlkdGFGZ3AzNGlzY0lWRWo0Q1IzRDhkVWs4dERsNytYNDlHOEVVeGxzVXBYdwp2aDdZZTR0dDBxQVBPbDBFSm10b3ZPUT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+  tls.key: LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2QUlCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktZd2dnU2lBZ0VBQW9JQkFRRHc1cVJNMGw2am9uVEoKd2NqaWFwTTZnWEtzdTJNdXF6NjZqenpIai8xOXZQVXlSLzg5QmVRb1BreDg2TTdpcDNEQmdqMUwvUGIwc3VZRwpWN3Jrc2JqTHB0QVFHcEpwM2tuc1IxN0tBRjhkLzVMUzhXVWVhc296VlA2WVY2UWF6WnQyU0FreloxNDM3cjZUCmpSZUtmUUZBV0pNSWlHV0xBOGdwVHkzZms2cUl5SktxNlk2OU5IWFJyUjc1NzhFeFZMaGNITlF5bDVCWGJCQ04KamJCSWIxT2VvQlQ3TmR4RHNwRFZCaGZOY0syMHdwTTliQm1EZkd5dmVWRG1xVSt1YzhNS255UWNnR0dQY2o3NApvMk9UYUdPYzNWSjQ1N3VRZ2dEUDZzaUZlZ25OTEhkaStiOHl4UlZZdDhhUzV5TFBiYzBiQzNsd3F0OXhEM3VaCitVMEtQdEV0QWdNQkFBRUNnZ0VBTUhHQkdyMjNNRnJMOTRLVG5neG1mUDVwREJsR3NhellHWFlTZCtNWnk3NUMKNUpDYjRDNmVHZ1dsSmYwL0ZVOHNtbzFSUEVXcmQ3dStEQXA2VitEeFUyckJMbXZaZzVhaThQUE5PUHZvSk1VdgpSbUlxdm5vbEhUdDdVekZVbTlzNjV3ZEhhbUhnRFlsaUk1UGM1d21LUmVGSitBNU50UzNXZzVBYm5uazRjdmJXCnZLRk1SeXdEUm12WnFkOHVLMVVSQlE2MVJ6QTlHb1Z1MUVNaXRISXJTNmFlOHFEcnJoNWt6TnRTY05GVHJ6S2cKaXh6emRNamFWd3YwVTFZZHRSMk9tT3ZUNjVmMDZ5RG1qbDBhcVBJMExzUWhYekszY0xTVzNCSFB1OHhuUkp4TgpCY0FaaUxFb1hld3luYjVTWklxQ2IyQ1RCS1R0aUUyZ3h5K1VVYmIwOVFLQmdRRDFIMldyOGtVeUliczU0SEdsCjhzNUtWY0FlelpzYTdWbXk4SEVrb2ZxMytEdXJ3ZUZEN2puZEMyb1A2bWdJdGRGejJCM2VDL1VXdVI4bFJyM0oKUEowY0FVNlp0dm0xNmRtSytRRDNlQlJsQ1FncFgrdG1OL0lvQ3I1REcwampXdWVGQzVlQzArVVcweGRwbHh2QgpFcDljeU9SOU1qY21OWUhPK2xtdFkzbzZJd0tCZ1FEN2wwazBpdkdNUUFRNjluai9ORWljOCs3cHNDdHhFVjRUCnNFM091M25DdDRIVCttQ0pDN2JFS0daOWUyMFpuTWc0RFFlTnZIc1lnUW8xNVJCYWxESW1LYVlTUHVsdmxXWlMKT211dXdKM2lVSjNhOXVtc1VuczUzTGtrTTNnMGVJaFJzbWY2NUx6UWo2MXg4YkhhMnFVVmJ5dzk1VXNHYkNhNApsOFRaNjVXMGJ3S0JnSE9ISUx3eHF6czllcWlFaUF2V3JET014c2U5eitTWkNUVzA3UjUrMlZQcnd2UG9wT3NIClZHNUIrdk1WWDRMN2JvUlN6NERmMGR1cjFHb1ZOVTJySzhFUFBLUm1BTHNrUkV1am9Ea0NkMXBITDNtUW83bkIKbEhnYTJDRjRzcG0xTm5rV1JZcDdvL1ZsK0Jya0JVaXlKam5zMVFQTXJ3RnJKb3NPbzBWOUpSWlJBb0dBS3FPSwpLWmgrdFhsSC9rSTFZWE1YOTFtMEhQRFplL0VvazRlbXVDbTN5aE5Wc25wVmtBUm5Oamx1blVla3h0bDJhV0Z6CjdVYUxTaXpjY1NQZ01LbTdFaEt1N1pxeDcxSlBwQkg0bkFaUys3OFQ4YjgwL1JxQmZkMzFscmdPWUQ0cFJFZEwKTGc5RUhNaXM2WW0vemNxT2ZlSjRpZ2pwUFM1cEpaRzdMLytvUUlzQ2dZQTJYTHZOVjdDT3RvTEhDOGNXK0RkaQpqUXZMK1VxdkxYT1QvZ0UzcUpuSU5YNVpIQUJuelJSUEhzOHpjMnR1T3FJY1VrVnhxZDQ3eUcxUlFJQzQxaUNiCkhEQWNnVER1SVFmTEEwNlRMSE90b2ZHSzFLeDArTWhkMmMxcjRWMWZhV1Q3YVVRTlpvbXNMUGFPMGdvSlJmSFoKMU1SenZkT3dkNXhnbnIwRUM5N1p6dz09Ci0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K
+kind: Secret
+metadata:
+  name: kss-tls
+  namespace: default
+type: kubernetes.io/tls
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx
+  namespace: default
+spec:
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: ClusterIP
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:alpine
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - name: nginx-config-volume
+              mountPath: /etc/nginx/conf.d/default.conf
+              subPath: default.conf
+      volumes:
+        - name: nginx-config-volume
+          configMap:
+            name: nginx-config
+            items:
+              - key: default.conf
+                path: default.conf
+---
+apiVersion: v1
+data:
+  auth: YWRtaW46JGFwcjEkQXVkMWRScTAkUXZWR3EuTXB4UzZueWc2elBOVS5HMQo=
+kind: Secret
+metadata:
+  name: basic-auth
+  namespace: default
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  default.conf: |
+    server {
+        listen 80;
+
+        location /auth {
+            default_type text/plain;
+            return 200 "Welcome to auth\n";
+        }
+
+        location / {
+            root /usr/share/nginx/html;
+            index index.html;
+        }
+    }
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: kss-auth-ingress
+  namespace: default
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/auth-type: "basic"
+    nginx.ingress.kubernetes.io/auth-secret: "basic-auth"
+    nginx.ingress.kubernetes.io/auth-realm: "Authentication Required"
+    nginx.ingress.kubernetes.io/whitelist-source-range: "10.254.146.1/32"
+    # nginx.ingress.kubernetes.io/blacklist-source-range: ""
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - kss.tothenew.com
+      secretName: kss-tls
+  rules:
+    - host: kss.tothenew.com
+      http:
+        paths:
+          - path: /auth
+            pathType: Prefix
+            backend:
+              service:
+                name: nginx
+                port:
+                  number: 80
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: kss-root-ingress
+  namespace: default
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - kss.tothenew.com
+      secretName: kss-tls
+  rules:
+    - host: kss.tothenew.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: nginx
+                port:
+                  number: 80
+
+
