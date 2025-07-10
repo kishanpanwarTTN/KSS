@@ -27,6 +27,7 @@ spec:
   match:
     namespaces:
     - dev
+    - default
     kinds:
       - apiGroups: [""]
         kinds: ["Pod"]
