@@ -1,0 +1,15 @@
+cat /sys/module/apparmor/parameters/enabled
+cat /sys/kernel/security/apparmor/profiles
+
+#include <tunables/global>
+
+profile deny-write-profile {
+  #include <abstractions/base>
+  file,
+  deny /tmp w,
+}
+
+
+aa-status | grep deny
+apparmor_parser -q deny-write-profile
+aa-status | grep deny
