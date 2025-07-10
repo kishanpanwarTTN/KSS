@@ -8,9 +8,12 @@ spec:
   hostNetwork: true
   hostIPC: true
   hostPID: true
+  securityContext:
+    runAsUser: 1000
   containers:
   - image: busybox
     name: busybox
     command: ["sleep", "500"]
-    resources: {}
+    securityContext:
+      readOnlyRootFilesystem: true
   restartPolicy: Always
